@@ -1,0 +1,56 @@
+.container{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+}
+.container img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.container nav ul{
+padding: 0%;
+list-style-type: none;
+display: flex;
+justify-content: center;
+}
+.container nav ul li{
+    display: block;
+    padding: 10px 15px;
+}
+/* .container nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container nav ul li a:hover{
+    border-bottom: 1px solid black;
+    color: blueviolet;
+} */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 10px;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 10px;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 10px;
+  }
