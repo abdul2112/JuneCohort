@@ -1,0 +1,68 @@
+body{
+    width: 75%;
+    margin: auto;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    padding: 10px 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+span{
+    color: orange;
+}
+
+main{
+    background-color: orange;
+}
+
+main section{
+    text-align: center;
+    color: wheat;
+    padding: 5px;
+    background-color: rgb(54, 54, 54);
+}
+
+main h3{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+    color: wheat;
+    text-align: center;
+}
+
+.flex-container{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.flex-container div{
+    /* border: 1px solid black; */
+    width: 20%;
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+}
